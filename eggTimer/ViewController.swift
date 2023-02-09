@@ -6,6 +6,7 @@ class ViewController: UIViewController {
     var timer = Timer()
     
     @IBOutlet weak var eggTimer: UILabel!
+    @IBOutlet weak var eggCookingProgress: UIProgressView!
     @IBOutlet weak var notificationAboutFinish: UILabel!
 
     override func viewDidLoad() {
