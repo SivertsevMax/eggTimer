@@ -43,6 +43,7 @@ class ViewController: UIViewController {
         } else {
             eggTimer.text = "YOUR EGG IS COOKED"
             notificationAboutFinish.text = "How do you like eggs?"
+            timer.invalidate()
         }
         startTimer -= 1
     }
