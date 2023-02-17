@@ -1,7 +1,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let eggTimes = ["soft": 300, "medium": 10, "hard": 3]
+    let eggTimes = ["soft": 300, "medium": 420, "hard": 720]
     var startTimer = 0
     var startTimerProgress: Float = 0
     var timer = Timer()
